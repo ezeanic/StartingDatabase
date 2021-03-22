@@ -18,6 +18,7 @@
     - sudo mysql -uroot -p
 
 ### basic Commands
+ - source database_name
  - show databases; - shows list of databases craeted
  - use **database_name**; - start using specified database_name
  - use tables; - command to see which tables are inside the database
