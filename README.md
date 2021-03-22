@@ -1,5 +1,8 @@
 # StartingDatabase
 
+### Create RDS instance
+  this will be used later" $host = "{hostname}.csjyo0dgtpde.us-east-1.rds.amazonaws.com"; "
+
 ### Setup for first time
  - Create sql file in directory
  - To start use the following command: 
