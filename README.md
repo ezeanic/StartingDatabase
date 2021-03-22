@@ -1,9 +1,9 @@
 # StartingDatabase
 
 ### Create RDS instance
-  this will be used later" $host = "{hostname}.csjyo0dgtpde.us-east-1.rds.amazonaws.com"; "
+  this will be used later" $host = "{rds endpoint}.rds.amazonaws.com"; " //example of endpoint - chijiokedatabase.c1k1xm1ci0ch.us-east-1.rds.amazonaws.com
 ### Starting MYSQL bash
-  mysql -h {hostname}.csjyo0dgtpde.us-east-1.rds.amazonaws.com -P {port} -u {username} -p
+  mysql -h {rds endpoint} m -P {port} -u {username} -p //example of endpoint - chijiokedatabase.c1k1xm1ci0ch.us-east-1.rds.amazonaws.com
   {port} is usually 3306
   
 ### Setup for first time
