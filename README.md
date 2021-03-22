@@ -2,7 +2,10 @@
 
 ### Create RDS instance
   this will be used later" $host = "{hostname}.csjyo0dgtpde.us-east-1.rds.amazonaws.com"; "
-
+### Starting MYSQL bash
+  mysql -h {hostname}.csjyo0dgtpde.us-east-1.rds.amazonaws.com -P {port} -u {username} -p
+  {port} is usually 3306
+  
 ### Setup for first time
  - Create sql file in directory
  - To start use the following command: 
