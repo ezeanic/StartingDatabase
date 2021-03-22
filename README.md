@@ -18,6 +18,7 @@
     - sudo mysql -uroot -p
 
 ### basic Commands
+ - mysql -h csci370.csjyo0dgtpde.us-east-1.rds.amazonaws.com -P 3306 -u ezeanic -p
  - source database_name
  - show databases; - shows list of databases craeted
  - use **database_name**; - start using specified database_name
